@@ -1,0 +1,24 @@
+/*
+Author: Tia Petts
+Date: 10/22/2019
+*/
+
+dt {
+  font-weight: bold;
+  color: #8B705F;
+}
+
+dd {
+  margin-bottom: 1em;
+}
+
+.price {
+  font-style: italic;
+  font-weight: normal;
+}
+
+dd em {
+  color: #8B705F;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: normal;
+}

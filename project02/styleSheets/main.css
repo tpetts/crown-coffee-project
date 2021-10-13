@@ -1,0 +1,96 @@
+/*
+Author: Tia Petts
+Date: 10/22/2019
+*/
+
+/*Body Styles*/
+body {
+    font-family: Arial Helvetica sans-serif;
+    margin: 0;
+}
+
+/*Header Styles*/
+header {
+  background-color: #2E1B11;
+  color: #FFF;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  border-top: 4px solid #9e2e4a;
+  border-bottom: 4px solid #9e2e4a;
+}
+
+h1, h2 {
+  color: #FFF;
+}
+
+main h2, h3 {
+  font-weight: normal;
+  letter-spacing: .2em;
+  color: #4d0026;
+}
+
+
+/*All Link Styles*/
+a {
+  text-decoration: none;
+  color: #990026;
+}
+
+a:active {
+  color: #f0ff24;
+}
+
+a:hover {
+  color: #ff1a53;
+}
+
+
+/*Navigation Link Styles*/
+nav a:link {
+  color: #ff0040;
+}
+
+nav a:visited {
+  color: #ffff00;
+}
+
+nav a:hover {
+  color: #ff24d7;
+  text-shadow: .2em .1em 5px grey;
+}
+
+nav a:active {
+  color: #ff8000;
+}
+
+/*Main Content*/
+main {
+  margin: 1em 1em;
+}
+
+/*Footer Styles*/
+footer {
+  padding-right: 3em;
+  padding-left: 3em;
+  padding-bottom: 3em;
+  background-color: #2E1B11;
+  color: #e60073;
+  border-top: 4px solid #9e2e4a;
+}
+
+footer address {
+  text-align: right;
+}
+
+/*Hours Styles*/
+footer > a {
+  background-color: #FFF;
+  padding: .8em;
+  border: 4px solid #9e2e4a;
+  border-radius: 30px;
+}
+
+footer > a:hover {
+  border-color: #ff1a53;
+}
