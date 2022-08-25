@@ -71,9 +71,9 @@ nav a:active {
 
 /*Main Content*/
 main {
-  padding: 20px;
+  padding: 3em;
   min-height: 100%;
-  margin: 0 auto 30%;
+  margin: 0 auto 25%;
 }
 
 /*Footer Styles*/
