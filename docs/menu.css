@@ -22,3 +22,11 @@ dd em {
   font-family: "Times New Roman", Times, serif;
   font-weight: normal;
 }
+
+main section {
+  padding: 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border-radius: 1em;
+  box-shadow: inset 8px 8px 10px #888888, 1px 1px 10px 2px #888888;
+}
