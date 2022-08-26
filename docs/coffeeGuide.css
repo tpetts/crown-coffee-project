@@ -1,0 +1,23 @@
+/*
+  Author: Tia Petts
+  Date: 11/14/2019
+*/
+
+article img {
+    float: left;
+    margin-right: 1em;
+  }
+  
+  article p {
+    margin-top: 2.5em;
+  }
+  
+  article {
+    float: left;
+    padding: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-radius: 1em;
+    box-shadow:  inset 8px 8px 10px #888888, 1px 1px 10px 2px #888888;
+  }
+  
