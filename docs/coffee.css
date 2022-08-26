@@ -17,3 +17,32 @@ main h2 {
 li {
   line-height: 2em;
 }
+
+/*Table Styles*/
+table {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+
+td {
+  border: 3px solid #FFF;
+  padding-top: .5em;
+  padding-right: .5em;
+  padding-bottom: .5em;
+  padding-left: 1em;
+  background-color: #f7e8de;
+}
+
+th {
+  background-color: #4d0000;
+  color: #FFF;
+  padding: 1em;
+  border-top-left-radius: 0.7em;
+  border-top-right-radius: 0.7em;
+}
+
+.size {
+  width: 10%;
+}
