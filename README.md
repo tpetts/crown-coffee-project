@@ -1,6 +1,8 @@
 # crown-coffee-project
+
 Project developed in Intro to HTML5 class.
 
+[Click here to find out what was sent in the forms you submitted on the coffee site :)](http://itins3.madisoncollege.edu/echo.php)
 
 index.html overview image:
 ![image](https://user-images.githubusercontent.com/58205288/137371144-22589a00-b30c-4292-89ca-60dae8ca1fa1.png)
@@ -19,5 +21,3 @@ club.html overview image:
 
 contact.html overview image:
 ![image](https://user-images.githubusercontent.com/58205288/137374138-2843972d-99fb-487b-9cfe-7da4004a2f5d.png)
-
-
