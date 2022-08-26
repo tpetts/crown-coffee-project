@@ -9,6 +9,7 @@
   <title>Join Our Coffee Club</title>
   <meta charset="UTF-8" />
   <link href="main.css" rel="stylesheet" type="text/css">
+  <link href="club.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -39,6 +40,83 @@
 
       <p>Prefer to enjoy your coffee at home? No Problem! Sign up for our Coffee Club and get the best coffee delivered right to your door.</p>
     </section>
+
+    <form name="clubForm" action="http://itins3.madisoncollege.edu/echo.php" method="post">
+
+      <label for="name">Name:<span class="required"><sup>*required</sup></span></label>
+      <input type="text" name="name" id="name" required />
+      <br>
+
+      <label for="email">Email:</label>
+      <input type="text" name="email" id="email"/>
+      <br>
+
+      <label for="password">Password:<span class="required"><sup>*required</sup></span></label>
+      <input type="password" name="password" minlength="8" maxlength="25" id="password" required />
+      <br>
+
+      <label for="bean">Type of Bean:</label>
+      <select class="bean" name="bean" id="bean">
+        <option value="grounds">Grounds</option>
+        <option value="whole">Whole</option>
+        <option value="rounds">Rounds</option>
+      </select>
+      <br><br>
+
+      <fieldset>
+        <legend>Regular or Decaf?</legend>
+
+        <input type="radio" id="reg" name="coffee" value="regular" />
+        <label for="reg">Regular</label>
+        <hr>
+        <input type="radio" id="decaf" name="coffee" value="decaf" />
+        <label for="decaf">Decaf</label>
+        <hr>
+      </fieldset>
+
+      <fieldset>
+        <legend>Type of Roast:</legend>
+
+        <input type="checkbox" name="roastType" value="grogg" id="grogg">
+        <label for="grogg">Highlander Grogg</label>
+        <hr>
+        <input type="checkbox" name="roastType" value="cinnamon" id="swirl">
+        <label for="swirl">Cinnamon Swirl</label>
+        <hr>
+        <input type="checkbox" name="roastType" value="hazel" id="hazel">
+        <label for="hazel">Hazelnut Cream</label>
+        <hr>
+        <input type="checkbox" name="roastType" value="vanilla" id="vanilla">
+        <label for="vanilla">French Vanilla</label>
+        <hr>
+        <input type="checkbox" name="roastType" value="blueberry" id="nut">
+        <label for="nut">Blueberry Nut</label>
+        <hr>
+        <input type="checkbox" name="roastType" value="banana" id="banana">
+        <label for="banana">Banana Caramel</label>
+        <hr>
+        <input type="checkbox" name="roastType" value="cherry" id="cherry">
+        <label for="cherry">Chocolate Cherry</label>
+        <hr>
+        <input type="checkbox" name="roastType" value="toffee" id="toffee">
+        <label for="toffee">English Toffee</label>
+        <hr>
+        <input type="checkbox" name="roastType" value="raspberry" id="raspberry">
+        <label for="raspberry">Vanilla Raspberry</label>
+        <hr>
+      </fieldset>
+      <br><br>
+
+      <label for="comments">Additional Comments:</label>
+      <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+      <br><br>
+
+      <div id="buttons">
+        <input type="submit" name="submit" value="Order Now!" id="submit" class="button">
+        <input type="reset" name="clear" value="Clear Form" id="clear" class="button">
+      </div>
+    </form>
+
   </main>
 
   <footer>

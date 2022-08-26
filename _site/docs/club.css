@@ -1,0 +1,70 @@
+/*
+  Author: Tia Petts
+  Date: 11/14/2019
+*/
+
+/*Form Styles*/
+form {
+    background-color: #ffe6cc;
+    border-radius: 1em;
+    padding: 2em;
+  }
+  
+  input, select, textarea {
+    margin-top: .5em;
+    margin-bottom: 1em;
+  }
+  
+  input {
+    display: block;
+  }
+  
+  input[type="radio"], input[type="checkbox"] {
+    display: inline-block;
+  }
+  
+  legend {
+    font-weight: bold;
+  }
+  
+  /*Fieldset Styles*/
+  fieldset {
+    border: 2px solid #A87B50;
+    border-radius: .5em;
+    padding: .5em;
+    margin: .5em;
+    width: 90%;
+  }
+  
+  /*Textarea Styles*/
+  textarea {
+    height: 50%;
+    width: 100%;
+    border: 2px solid #A87B50;
+    border-radius: .5em;
+  }
+  
+  /*Button Styles*/
+  div input[type="submit"], input[type="reset"] {
+    display: inline-block;
+    background: #FFF;
+    color: #8c073a;
+    border: 2px solid #ff0062;
+    padding: .5em;
+    font-weight: bold;
+  }
+  
+  div#buttons {
+    text-align: center;
+  }
+  
+  input#submit:hover, input#clear:hover {
+  background-color: maroon;
+  color: #FFF;
+  transition-duration: 2s;
+  }
+  
+  span.required {
+    color: red;
+  }
+  
