@@ -4,7 +4,7 @@ Date: 10/22/2019
 */
 
 main h2 {
-  background-image: url("../images/beansBanner.jpg");
+  background-image: url("images/beansBanner.jpg");
   background-size: cover;
   padding: .8em;
   border-top-right-radius: 20px;
