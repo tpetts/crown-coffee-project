@@ -76,6 +76,10 @@ main {
   margin: 0 auto 25%;
 }
 
+.topLink {
+  margin-bottom: 2em;
+}
+
 /*Footer Styles*/
 footer {
   padding-right: 3em;
