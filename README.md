@@ -1,4 +1,4 @@
-# crown-coffee-project
+# [crown-coffee-project](https://tpetts.github.io/crown-coffee-project/)
 
 Project developed in Intro to HTML5 class.
 
