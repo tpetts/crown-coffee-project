@@ -9,6 +9,7 @@
   <title>Contact Us</title>
   <meta charset="UTF-8" />
   <link href="main.css" rel="stylesheet" type="text/css">
+  <link href="contact.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -52,6 +53,48 @@
       <br />
       <a href="tel:+01-608-442-0452">Call us! 1.608.442.0452</a>
     </section>
+
+    <fieldset>
+      <legend>Send Us a Message!</legend>
+      <form name="clubForm" action="http://itins3.madisoncollege.edu/echo.php" method="post">
+        <label for="firstName">First Name:<span class="required"><sup>*required</sup></span></label>
+        <input type="text" name="firstName" id="firstName" placeholder="First Name" required />
+        <br>
+
+        <label for="lastName">Last Name:<span class="required"><sup>*required</sup></span></label>
+        <input type="text" name="lastName" id="lastName" placeholder="Last Name" required />
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email" placeholder="janedoe@somewhere.com" />
+        <br>
+
+        <label for="phone">Phone:</label>
+        <input type="text" name="phone" id="phone" placeholder="(123)456-7890">
+        <br><br>
+
+        <label for="topic">Subject</label>
+        <select class="subject" name="subject" id="topic">
+          <option value="01happy">Happy Customer</option>
+          <option value="02cc">Customer Complaint</option>
+          <option value="03q">Question about our Products</option>
+          <option value="04cat">Catering Order</option>
+          <option value="05other">Other Comments or Questions</option>
+        </select>
+        <br><br>
+
+        <label for="message">Message:<span class="required"><sup>*required</sup></span></label>
+        <textarea name="message" rows="8" cols="80" id="message" placeholder="Type message here" required></textarea>
+        <br><br>
+
+        <div id="button">
+          <input type="submit" name="submit" value="Send" />
+          <br><br>
+          <input type="reset" name="reset" value="Clear Form" />
+        </div>
+      </form>
+    </fieldset>
+
   </main>
 
   <footer>

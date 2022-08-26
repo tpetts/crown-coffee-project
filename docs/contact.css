@@ -1,0 +1,54 @@
+/*
+  Author: Tia Petts
+  Date: 11/14/2019
+*/
+
+form {
+    margin: 0 auto;
+  }
+  
+  
+  fieldset {
+    background-color: #ffe6cc;
+    border-radius: 2em;
+    border: 2px dashed #800000;
+    padding: 2em;
+    margin: 1em;
+  }
+  
+  legend {
+    font-weight: bold;
+    font-size: 1.55em;
+    color:  #800040;
+  }
+  
+  label {
+    font-weight: bold;
+    color: maroon;
+  }
+  
+  input#firstName, input#lastName, input#email, input#phone {
+    display: block;
+    width: 100%;
+  }
+  
+  div#button {
+    text-align: center;
+  }
+  
+  input[type="submit"], input[type="reset"] {
+    background-color: maroon;
+    color: #FFF;
+    border: 1px solid orange;
+  }
+  
+  input[type="submit"]:hover, input[type="reset"]:hover {
+   background-color: #FFF;
+   color: maroon;
+   transition-duration: 1s;
+  }
+  
+  span.required {
+    color: red;
+  }
+  
